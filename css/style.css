@@ -349,3 +349,21 @@ nav ul li a:hover{
     border-radius: 50%;    /* INI YANG BIKIN FOTO JADI BULAT PERFECT */
     box-shadow: 0 0 20px rgba(0, 212, 255, 0.5); /* Efek cahaya biru di pinggirnya */
 }
+.hero-image-circle {
+    width: 200px !important;
+    height: 200px !important;
+    max-width: 200px !important; /* Mengunci lebar maksimal */
+    max-height: 200px !important; /* Mengunci tinggi maksimal */
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    display: block !important;
+    margin: 0 auto 20px auto !important; /* Menjaga foto otomatis pas di tengah atas */
+    box-shadow: 0 0 25px rgba(13, 110, 253, 0.6);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-image-circle img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Biar muka kamu gak ketarik memanjang/gepeng */
+}

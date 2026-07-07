@@ -342,3 +342,10 @@ nav ul li a:hover{
     padding:0 20px 20px;
     color:#cbd5e1;
 }
+.home-img img {
+    width: 300px;          /* Atur lebar foto biar gak kegedean */
+    height: 300px;         /* Atur tinggi foto */
+    object-fit: cover;     /* Biar fotonya pas di tengah lingkaran dan gak gepeng */
+    border-radius: 50%;    /* INI YANG BIKIN FOTO JADI BULAT PERFECT */
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.5); /* Efek cahaya biru di pinggirnya */
+}
